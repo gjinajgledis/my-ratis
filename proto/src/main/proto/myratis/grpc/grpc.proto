@@ -1,0 +1,18 @@
+syntax = "proto3";
+option java_package = "org.example.myratis.proto.grpc";
+option java_outer_classname = "GrpcProtos";
+option java_generate_equals_and_hash = true;
+package myratis.grpc;
+
+import "myratis/helloWorld.proto";
+import "myratis/raft.proto";
+
+service HelloWorldService {
+  rpc sayHello(myratis.common.HelloRequest)
+      returns (myratis.common.HelloReplay){};
+}
+
+service RaftServerProtocolService {
+  rpc requestVote(myratis.common.RequestVoteRequestProto)
+      returns(myratis.common.RequestVoteReplyProto) {}
+}

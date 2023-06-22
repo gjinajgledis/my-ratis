@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="25333796-a3b9-4020-a009-9bb73647d0dd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2023-06-08T112938.OK.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2023-06-13T113748.OK.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2023-06-13T120429.OK.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/protoeditor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/config/RaftProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/io/MD5Hash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/protocol/ClientId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/protocol/ClientInvocationId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/protocol/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/protocol/RaftGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/protocol/RaftGroupId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/protocol/RaftId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/protocol/RaftPeer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/protocol/RaftPeerId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/protocol/exception/AlreadyClosedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/protocol/exception/RaftException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/protocol/exception/TimeoutIOException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/util/CollectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/util/IOUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/util/JavaUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/util/LifeCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/util/MemoizedSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/util/NetUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/util/Preconditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/util/ReferenceCountedObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/util/SizeInBytes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/util/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/util/TimeDuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/util/Timestamp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/util/TraditionalBinaryPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/util/function/CheckedBiFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/util/function/CheckedRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/util/function/CheckedSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/myratis/common/util/function/StringSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/test/java/org/example/myratis/grpc/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/src/main/java/org/example/myratis/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/src/main/java/org/example/myratis/StateMachineExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/src/main/java/org/example/myratis/common/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/src/test/java/org/example/myratis/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc/src/main/java/org/example/myratis/grpc/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc/src/main/java/org/example/myratis/grpc/GrpcHelloWorldService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc/src/main/java/org/example/myratis/grpc/server/GrpcServerProtocolService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc/src/main/java/org/example/myratis/grpc/server/GrpcService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc/src/test/java/org/example/myratis/grpc/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto/src/main/java/org/example/myratis/proto/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto/src/main/proto/myratis/grpc/grpc.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto/src/main/proto/myratis/helloWorld.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto/src/main/proto/myratis/raft.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-api/src/main/java/org/example/myratis/api/server/DivisionProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-api/src/main/java/org/example/myratis/api/server/RaftServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-api/src/main/java/org/example/myratis/api/server/RaftServerRpc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-api/src/main/java/org/example/myratis/api/server/protocol/RaftServerProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-api/src/main/java/org/example/myratis/api/server/protocol/TermIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-api/src/main/java/org/example/myratis/api/server/storage/FileInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-api/src/main/java/org/example/myratis/api/server/storage/RaftStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-api/src/main/java/org/example/myratis/api/server/storage/RaftStorageDirectory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-api/src/main/java/org/example/myratis/api/server/storage/RaftStorageMetadata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-api/src/main/java/org/example/myratis/api/server/storage/RaftStorageMetadataFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-api/src/main/java/org/example/myratis/api/statemachine/SnapshotInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-api/src/main/java/org/example/myratis/api/statemachine/StateMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-api/src/main/java/org/example/myratis/api/statemachine/StateMachineStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-api/src/main/java/org/example/myratis/api/statemachine/TransactionContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-api/src/test/java/org/example/myratis/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/example/myratis/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/example/myratis/server/FollowerState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/example/myratis/server/RaftServerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/example/myratis/server/RoleInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/example/myratis/server/ServerState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/test/java/org/example/myratis/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2QruxY3Y5DuCFA2gUJNleuxDX7H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/proto/src/main/proto/myratis/grpc" />
+      <recent name="$PROJECT_DIR$/proto/src/main/proto/myratis" />
+      <recent name="$PROJECT_DIR$/proto/src/main/proto" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+      <command value="mvn compile" />
+      <command value="mvn clean compile" />
+    </option>
+  </component>
+  <component name="RunManager" selected="HTTP Request.generated-requests | #3">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+      <module name="my-ratis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.myratis.server.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.myratis.grpc.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.myratis.grpc.App" />
+      <module name="grpc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.myratis.grpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.proto.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.proto.App" />
+      <module name="proto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.myratis.server.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="AppTest.shouldAnswerWithTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="METHOD_NAME" value="shouldAnswerWithTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #3" />
+        <item itemvalue="Application.org.example.myratis.grpc.App" />
+        <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
+        <item itemvalue="Application.org.example.proto.App" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25333796-a3b9-4020-a009-9bb73647d0dd" name="Changes" comment="" />
+      <created>1686124270784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686124270784</updated>
+      <workItem from="1686124272569" duration="11209000" />
+      <workItem from="1686141538186" duration="6155000" />
+      <workItem from="1686149721414" duration="1232000" />
+      <workItem from="1686211561985" duration="8397000" />
+      <workItem from="1686652347448" duration="9969000" />
+      <workItem from="1686728981678" duration="9512000" />
+      <workItem from="1686813476289" duration="8903000" />
+      <workItem from="1686911315185" duration="3027000" />
+      <workItem from="1687439657818" duration="340000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

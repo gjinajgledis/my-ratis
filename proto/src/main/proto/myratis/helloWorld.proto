@@ -1,0 +1,15 @@
+syntax = "proto3";
+option java_package = "org.example.myratis.proto";
+option java_outer_classname = "HelloProtos";
+option java_generate_equals_and_hash = true;
+package myratis.common;
+
+message HelloRequest {
+  int32 id = 1;
+  string text = 2;
+}
+
+message HelloReplay {
+  int32 id = 1;
+  string hello = 2;
+}
